@@ -1,5 +1,5 @@
 ---
-title: Example Talk
+title: "Paying-to-Play: How Members of Congress Purchase Their Seat At the Table""
 
 event: Wowchemy Conference
 event_url: https://example.org
