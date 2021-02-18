@@ -14,8 +14,8 @@ image:
   focal_point: Smart
 
 links:
-- name: Available on SocArXiv
-  url: https://osf.io/preprints/socarxiv/cf3jn/
+- name:
+  url:
 url_code: ""
 url_pdf: ""
 url_slides: ""
