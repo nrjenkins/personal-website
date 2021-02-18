@@ -14,7 +14,7 @@ organizations:
   url: https://www.ucr.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research and teaching interests include American politics, public policy, quantitative methods.
+bio: I'm a political scientist interested in American politics, public policy, quantitative methods.
 
 # Interests to show in About widget
 interests:
