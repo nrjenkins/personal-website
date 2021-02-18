@@ -27,10 +27,12 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Deep Learning
-    tag: Deep Learning
-  - name: Other
-    tag: Demo
+  - name: Elections
+    tag: Elections
+  - name: Campaign Finance
+    tag: Campaign Finance
+  - name: Representation
+    tag: Representation
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
