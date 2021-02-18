@@ -27,12 +27,14 @@ content:
   filter_button:
   - name: All
     tag: '*'
-  - name: Elections
-    tag: Elections
-  - name: Campaign Finance
-    tag: Campaign Finance
-  - name: Representation
-    tag: Representation
+  - name: American Institutions
+    tag: American Institutions
+  - name: Political Behavior
+    tag: Political Behavior
+  - name: Quantitative Methods
+    tag: Quantitative Methods
+  - name: Public Policy
+    tag: Public Policy
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
