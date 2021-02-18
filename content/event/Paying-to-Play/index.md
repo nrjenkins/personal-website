@@ -4,13 +4,7 @@ title: Paying-to-Play: How Members of Congress Purchase Their Seat At the Table
 event: Western Political Science Association
 event_url: http://www.wpsanet.org/meeting/
 
-location: Vitrual
-#address:
-#  street: 450 Serra Mall
-#  city: Stanford
-#  region: CA
-#  postcode: '94305'
-#  country: United States
+location: Virtual
 
 summary: 
 abstract: "Scholars of money in politics have traditionally focused their attention on how outside groups use money to influence elected officials’ behavior. As a result, very little attention is given to investigate how elected officials themselves use money to advance their careers. In this article, I offer evidence that elected officials, like interest groups, also use money to gain political advantages. Specifically, using data on members’ committee requests and their ultimate committee assignments, I show that members of Congress make larger contributions to parties and their parties’ candidates when requesting prestige committees. Second, I show that steering committees reward these fundraising efforts by granting members their first choice committee assignments and that this effect is stronger when competition for a particular seat is high. If seats on Congressional committees can be bought with contributions to party committees, then a new equilibrium may develop in which members not only need money to win elections but also to receive positions in the legislature that will allow them to meaningfully represent their constituent’s interests."
