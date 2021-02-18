@@ -33,6 +33,8 @@ content:
     tag: Campaign Finance
   - name: Representation
     tag: Representation
+  - name: Congress
+    tag: Congress
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
