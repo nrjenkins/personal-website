@@ -14,17 +14,15 @@ organizations:
   url: https://www.ucr.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research and teaching interests include American politics, public policy, quantitative methods.
 
 # Interests to show in About widget
 interests:
-- Quantitative Research Design
-- Causal Inference
-- Bayesian Methods
-- Policy Evaluation
 - Congress
 - Interest Groups and Lobbying
 - Representation
+- Public Policy
+- Bayesian Methods
 
 # Education to show in About widget
 education:
@@ -69,9 +67,9 @@ social:
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
-#- icon: cv
-#  icon_pack: ai
-#  link: media/docs/cv/Nicholas R Jenkins - Curriculum Vitae.pdf
+- icon: cv
+  icon_pack: ai
+  link: cv/Jenkins CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "nicholas.jenkins@email.ucr.edu"
