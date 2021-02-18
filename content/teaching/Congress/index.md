@@ -1,6 +1,6 @@
 ---
 title: U.S. Congress
-summary:
+summary: This is an introductory course on the U.S. Congress.
 tags:
 - American Institutions
 date: "2016-04-27T00:00:00Z"
@@ -10,8 +10,6 @@ external_link: ""
 
 
 links:
-- name:
-  url:
 url_code: ""
 url_pdf: ""
 url_slides: ""
