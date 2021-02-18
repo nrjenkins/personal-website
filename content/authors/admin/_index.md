@@ -84,4 +84,4 @@ I am currently a graduate student in the [Political Science Department](https://
 
 I am a political scientist interested in using and teaching quantitative research methods to solve complex social science and policy problems.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "cv/Jenkins CV.pdf" "newtab" >}}CV{{< /staticref >}}.
