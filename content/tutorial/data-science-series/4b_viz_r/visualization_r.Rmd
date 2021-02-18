@@ -1,0 +1,113 @@
+---
+title: "Data Visualization in R"
+output: html_notebook
+---
+
+# Set Working Directory
+
+```{r}
+setwd("/Users/nick/Documents/Teaching/workshops/data_science_series/4b_viz_r")
+```
+
+
+# Import the Data
+
+```{r}
+mpg <- read.csv("mpg.csv")
+```
+
+# One Variable Plots
+
+```{r}
+library(ggplot2)
+
+# histogram
+ggplot(data = mpg, mapping = aes(x = displ)) +
+  geom_histogram()
+
+# density plot
+ggplot(data = mpg, mapping = aes(x = displ)) +
+  geom_density()
+```
+
+# Two Variable Plots
+
+```{r}
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
+  geom_point()
+
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
+  geom_point(color = "blue")
+
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
+  geom_point(shape = 3)
+
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
+  geom_point(shape = 3, color = "blue")
+```
+
+# Grouped Plots
+
+```{r}
+# mean highway mpg by vehicle class
+plot.data <- 
+  mpg %>%
+  group_by(class) %>%
+  summarise(mpg = mean(hwy))
+plot.data
+
+ggplot(data = plot.data, mapping = aes(x = class, y = mpg)) +
+  geom_col()
+
+# distribution of highway mpg by vehicle class
+ggplot(data = mpg, mapping = aes(x = hwy, fill = class)) +
+  geom_histogram()
+
+## this is kinda cluttered... let's dodge the columns
+ggplot(data = mpg, mapping = aes(x = hwy, fill = class)) +
+  geom_histogram(position = position_dodge())
+
+# we also try faceting
+ggplot(data = mpg, mapping = aes(x = hwy)) +
+  geom_histogram() +
+  facet_wrap(~ class)
+
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy, color = class)) +
+  geom_point()
+
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy)) +
+  geom_point() +
+  facet_wrap(~ class)
+```
+
+# Customize Plot Appearance
+
+```{r}
+ggplot(data = mpg, mapping = aes(x = displ, y = hwy, color = class)) +
+  geom_point() +
+  labs(x = "Engine Displacement", y = "Highway MPG", color = "Vehicle Class",
+       title = "Highway MPG vs. Engine Size") +
+  scale_color_discrete(labels = c("2-Seater", "Compact", "Midsize", "Minivan",
+                                  "Pickup", "Subcompact", "SUV")) +
+  theme_classic()
+```
+
+
+# Homework Problems
+
+1. Create a histogram of cylinders. Why are there only three main spikes?
+
+
+2. Create a scatter plot of city mpg and engine displacement.
+
+
+3. Create a grouped bar plot of city mpg and vehicle class using the median 
+instead of the mean. 
+
+
+4. Create a scatter plot of city mpg and engine displacement and color the 
+points red. Add labels to all of the axes. 
+
+
+5. Create a scatter plot of city mpg and engine displacement and color the 
+points by the vehicle's manufacturer. 

@@ -1,0 +1,70 @@
+---
+title: "Exploring Data with R"
+author: MPP Workship Series
+date: "October 1, 2020"
+output: 
+  ioslides_presentation:
+    widescreen: TRUE
+    incremental: TRUE
+    theme: yeti
+    logo: UCR_Icon_WhtBG.png
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Session Goals
+
+* Last time we were exploring data with Stata
+
+* This time we'll revisit what we did last time using R
+
+* We'll also discuss R's workflow tools
+
+## Workflow
+
+* In Stata, we document everything in a `.Do` file
+
+* The equivalent to a `.Do` file is a script file
+
+* But, the best option is a R Markdown file
+
+  * Markdown allows us to write text like we would with word, but we can add in code
+  
+  * (I made these slides with R Markdown)
+
+* For a style guide, we will follow the Tidyverse style guide [https://style.tidyverse.org/index.html](https://style.tidyverse.org/index.html)
+
+  * I'll explain it as we go
+
+## R Markdown
+
+* Easy to write full explanations of all our code
+
+* [https://bookdown.org/yihui/rmarkdown/](https://bookdown.org/yihui/rmarkdown/)
+
+## Getting R Setup
+
+* We will be using R through RStudio
+
+* RStudio provides a bunch of tools that make writing R code easier
+
+* R gets most of its functionality from packages that people write
+
+* There are packages to create maps, advanced statistical models, get sports team colors, and even get random quotes
+
+* We will use a couple different packages throughout the workshop
+
+## Installing packages
+
+* We need to use the `install.packages` function
+
+* After the package is installed, we need to load it using `library`
+
+* You only need to install a package once, but when you start R you need to load the packages that you want to use
+
+## Time for Hands-on Practice!
+
+Open the `lab_3` folder and double click on `intro_to_r.Rmd`
+

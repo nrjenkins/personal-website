@@ -1,0 +1,111 @@
+---
+title: "Modeling in R"
+output: html_notebook
+---
+
+# Set Working Directory
+
+```{r}
+setwd("/Users/nick/Documents/Teaching/workshops/data_science_series/5b_r_modeling")
+```
+
+
+# Import Data
+
+```{r}
+mpg <- read.csv("mpg.csv")
+```
+
+
+# Does the size of a car's engine affect highway MPG?
+
+```{r}
+model.1 <- lm(hwy ~ displ, data = mpg)
+summary(model.1)
+```
+
+
+# Create a Table of Results
+
+```{r}
+library(stargazer)
+stargazer(model.1, type = "text")
+
+# let's add in variable names
+stargazer(model.1, type = "text", covariate.labels = c("Engine Displacement"),
+          dep.var.labels = c("Highway MPG"))
+```
+
+
+# Model with Controls
+
+```{r}
+model.2 <- lm(hwy ~ displ + year + cyl, data = mpg)
+summary(model.2)
+
+# Let's add this second model to our table
+stargazer(model.1, model.2, type = "text", 
+          covariate.labels = c("Engine Displacement", "Vehicle Year", 
+                               "Number of Cylinders"), 
+          dep.var.labels = c("Highway MPG"))
+
+# To save the table to a word file, we use the 'out' argument
+stargazer(model.1, model.2, type = "text", 
+          covariate.labels = c("Engine Displacement", "Vehicle Year", 
+                               "Number of Cylinders"), 
+          dep.var.labels = c("Highway MPG"),
+          out = "results_table.txt")
+```
+
+
+# Model Prediction
+
+Let's use our model to predict the highway MPG for a vehicle with specific characteristics.
+
+```{r}
+# we start by creating a new dataframe with the characteristics of the car
+# that we want to predict
+pred.data <- data.frame(displ = 7, # car has 7 liters of engine displacement
+                        year = 2008, # built in 2008
+                        cyl = 8) # has 8 cylinders
+
+predictions <- predict(object = model.2, newdata = pred.data, evel = 0.95, 
+                       interval = "confidence")
+predictions
+```
+
+
+
+# Beyond Linear Regression
+
+```{r}
+# Logit
+fit <- glm(y ~ x1 + x2 + x3,
+           family = binomial(link = "logit"),
+           data = data)
+
+# probit
+fit <- glm(y ~ x1 + x2 + x3,
+           family = binomial(link = "probit"),
+           data = data)
+
+# poisson
+fit <- glm(y ~ x1 + x2 + x3,
+           family = poisson(link = "log"),
+           data = data)
+```
+
+
+# Homework Problems
+
+1. Estimate a regression looking at the relationship between city MPG and 
+engine displacement.
+
+
+2. Estimate another model with year and the number of cylinders as controls.
+
+
+3. Create a results table with both models and everything informatively labeled. 
+
+
+4. Use your model to predict the city MPG for a car built in 1999, with 4 cylinders, and 1.8 liters of engine displacement. 

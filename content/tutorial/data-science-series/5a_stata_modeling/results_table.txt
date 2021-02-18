@@ -1,0 +1,16 @@
+		(1)	(2)
+VARIABLES	LABELS	Model 1	Model 2
+			
+displ	Engine Displacement	-3.531***	-2.091***
+		(0.195)	(0.515)
+year	year		0.148***
+			(0.0545)
+cyl	cyl		-1.307***
+			(0.411)
+Constant	Constant	35.70***	-259.1**
+		(0.720)	(109.2)
+			
+Observations		234	234
+R-squared		0.587	0.617
+Standard errors in parentheses			
+*** p<0.01, ** p<0.05, * p<0.1			

@@ -1,0 +1,51 @@
+---
+title: "Exploring Data with Stata"
+author: MPP Workship Series
+date: "October 1, 2020"
+output: 
+  ioslides_presentation:
+    widescreen: TRUE
+    incremental: TRUE
+    theme: yeti
+    logo: UCR_Icon_WhtBG.png
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Session Goals
+
+* Last time we were exploring data with excel
+
+* This time we'll revisit those same questions using Stata
+
+* We'll also introduce some important workflow skills
+
+## Workflow
+
+* The backbone of any data project is reproducability
+
+  * All your calculations need to be transparent
+  
+  * You need to explain your code so people can understand it
+  
+* Excel doesn't allow for reproducability!
+
+* In Stata, we need to document everything in a `.Do` file
+
+## The `.Do` File
+
+* In a `.Do` file we can include comments to explain each step in our process
+
+* We also need to follow a style guide
+
+  * Style guides are like grammar for code. youdontneedgrammerrulesbutitiseaiserifwedo!
+  
+  * Stata doesn't need a lot of rules
+  
+  * We use `//` to make comments and don't go past the rule line
+
+## Time for Hands-on Practice!
+
+Open the `lab_2` folder and double click on `data_exploration_stata.do`

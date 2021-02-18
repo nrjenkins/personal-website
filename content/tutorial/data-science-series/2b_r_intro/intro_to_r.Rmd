@@ -1,0 +1,215 @@
+---
+title: "Welcome to R"
+output:
+  html_document:
+    df_print: paged
+---
+
+# This is a heading
+
+## This is a smaller header
+
+### This is an even smaller header
+
+#### ... you get it
+
+* This makes a bullet point
+
+* What about a numbered list?
+
+1. Just use numbers...
+
+Here is how you create a block of R code:
+
+```{r}
+
+```
+
+# Ok, Now Let's Code
+
+R is just a really fancy calculator. Let's start by doing some basic calculations:
+
+```{r}
+# use "#" to write comments in a code block
+# let's do some addition
+1 + 1
+
+5 + 2
+
+# notice the spaces between the + operator. This is good grammar. It's a lot 
+# harder to read without spaces (it gets worse when we have complex code).
+1+1 # bad
+5+2 # bad
+read_excel(path="excel_lab.xlsx",sheet="cd_data") # bad
+
+read_excel(path = "excel_lab.xlsx", sheet = "cd_data") # good
+
+# multiplication
+4 * 8
+5 * 19
+
+# division
+4 / 8
+14 / 7
+
+# cubes
+4 ^ 2
+```
+
+R shows the answers below the code block, but what if we wanted to save the answer to retrieve later? To do this, we can create an object but thinking of a name and using the assignment operator `<-`
+
+```{r}
+answer <- 5 + 2
+
+# to see the answer we need to use the "print" function
+print(answer)
+```
+
+If you look in the environment pane, you will see the object (answer) that we created.
+
+# Combinations
+
+What if we wanted to combine several operations in one object? We do this with the `c` function:
+
+```{r}
+# separate each operation with a comma
+c(1 + 4, 4 * 2, 10)
+
+# we can save this too
+new.object <- c(1 + 4, 4 * 2, 10)
+print(new.object)
+
+# we can include text instead of numbers and operations. Put text in quotations
+text <- c("This", "Shows", "That we can also have text")
+print(text)
+```
+
+We can use this create variables.
+
+# Types of Variables
+
+In R, there are several different types of variables:
+
+```{r}
+# Numeric Variables
+numbers <- c(1, 2, 3, 4, 5)
+numbers
+class(numbers)
+
+# Character Variables
+education <- c("Highshool", "Bachelors", "Grad School")
+education
+class(education)
+
+# Logical Variables
+male <- c(0, 1, 0, 1)
+class(male)
+
+male <- as.logical(male)
+male
+class(male)
+
+# Categorical Variables
+education <- as.factor(education)
+```
+
+
+# Functions
+
+To see what arguments any function takes in R you can type a `?` before any function's name
+
+```{r}
+?mean()
+```
+
+# Data Exploration
+
+## Working Directory
+
+Now that we know a little bit about how R works, let's replicate everything we did in Stata. The first thing we did in Stata was set the working directory. To do this in R, we use the `setwd` function. 
+
+```{r}
+# what directory are we in now?
+getwd()
+
+# set the working directory
+setwd(dir = "/Users/nick/Documents/Teaching/workshops/data_science_series/2b_r_intro")
+```
+
+## Import Data
+
+To import our excel file with the data, we'll need to install and load the `readxl` package. This will give us the function we need to import excel files.
+
+```{r}
+# install (we only need to do this once)
+install.packages("readxl")
+
+# now that it's installed, we need to load it if we want to use it
+library(readxl)
+
+# now let's import the data set
+read_excel(path = "excel_lab.xlsx", sheet = "cd_data")
+
+# notice that I set the path and sheet arguments equal to something. We could
+# have left these out, but then all the arguments must be entered in a specific
+# order and it can be confusing to remember what each argument is doing.
+read_excel("excel_lab.xlsx", "cd_data")
+
+# this loads the data, but we didn't save it! We need to assign it to an object
+data <- read_excel(path = "excel_lab.xlsx", sheet = "cd_data")
+
+# now all the data is saved in an object called "data"
+```
+
+## 1. What does each row of data describe?
+
+```{r}
+View(data)
+```
+
+## 2. How many rows of data are there?
+
+```{r}
+nrow(data)
+```
+
+## 3. What is the average over 65 population across all congressional districts?
+
+* To find the mean we use the function `mean`, but we also need to tell R what variable we want to find the mean for. The variable that we want is called `AGE65` and it is stored in the object we named `data`. First we give R the object, then we use `$` to find the variable. 
+
+```{r}
+mean(data$AGE65)
+```
+
+## 4. Create an indicator variable for California called "ca_dum"
+
+We can also use `$` to add new variables:
+
+```{r}
+data$ca_dum <- ifelse(test = data$STATE == "CA", yes = 1, no = 0)
+```
+
+## 5. What is the average over 65 population in each state?
+
+```{r}
+aggregate(formula = FIPSTATE ~ AGE65, data = data, FUN = mean)
+```
+
+## 6. How many total blue collar workers are there in each state?
+
+```{r}
+aggregate(formula = FIPSTATE ~ BLUCLLR, data = data, FUN = sum)
+```
+
+# Homework Problems
+
+## 1. Import the data on the "cd_data" sheet in the "excel_lab.xlsx" file
+
+
+## 2. What is the average military population across all congressional districts.
+
+
+## 3. Create an indicator called "cd_dum" for when a congressional district equals 10. 
+
+
+## 4. How many total farmers are there in each state? (Name your variable "tot_farmers").

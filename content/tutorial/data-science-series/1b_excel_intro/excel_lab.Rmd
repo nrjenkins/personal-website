@@ -1,0 +1,71 @@
+---
+title: "Exploring Data with Excel"
+author: MPP Workship Series
+date: "October 1, 2020"
+output: 
+  ioslides_presentation:
+    widescreen: TRUE
+    incremental: TRUE
+    theme: yeti
+    logo: UCR_Icon_WhtBG.png
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Session Goals
+
+In this session we'll work on the following:
+
+* Practice identifying clean data
+
+* Use excel to learn about using functions
+
+* Use excel to answer several descriptive questions
+
+## Identifying Clean Data
+
+Review: 
+
+1. We always want to figure out what each row tells us
+
+2. We also want to figure out what each columns tells us
+
+## Identifying Clean Data
+
+```{r comment = ""}
+head(ggplot2::mpg)
+```
+
+## Functions
+
+Time for math! 
+
+$$y = 5x$$
+
+* If $x = 2$, then what does $y$ equal?
+
+* We could also write this expression as $f(x) = 5x$
+
+* $f(x)$ is a function. If we plug in a value for $x$ then we get a specific output
+
+## Functions
+
+* All data software programs use functions
+
+* In excel, if we want to find the sum of numbers, we use the `SUM` function
+
+  * `SUM(Number1)`
+  
+  * `AVERAGE(Number1)`
+  
+* All functions have inputs, or arguments
+
+* In the $y = 5x$, $x$ is called the argument
+
+* In the `SUM` and `AVERAGE` examples, `Number1` is the argument
+
+## Time for Hands-on Practice!
+
+Open `excel_lab.xlsx` on your computer and following along

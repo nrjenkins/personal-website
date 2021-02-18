@@ -1,0 +1,154 @@
+---
+title: "Cleaning in R"
+output: html_notebook
+---
+
+# Overview
+
+We're going to learn how to use R to complete all the cleaning tasks that we did in Stata.
+
+# Set the Working Directory
+
+```{r}
+setwd("/Users/nick/Documents/Teaching/workshops/data_science_series/3b_r_cleaning")
+```
+
+
+# Importing the Data
+
+Start by importing the data set. Don't forget that we need to load the `readxl` package to be able to import an excel file. 
+
+```{r}
+library(readxl)
+leg.data <- read_excel("leg_data.xlsx")
+
+# let's take a look
+View(leg.data)
+
+# Ok, same problems. We know what to do!
+```
+
+# You've heard about the Spiderverse, but what about Tidyverse?
+
+Before we jump into it, we're going to learn about a style of syntax called "tidyverse." The tidyverse allows you to write R code in a way that makes it really easy to read. Let's see an example after we install and load the tidyverse package. 
+
+```{r}
+install.packages("tidyverse") # remember, we only need to install a package once
+library(tidyverse)
+```
+
+Suppose we wanted to only look at the data for Republicans in our sample. Here are two ways we can do this:
+
+```{r}
+# without tidyverse
+leg.data[leg.data$party == 1, ]
+
+# with tidyverse
+leg.data %>% filter(party == 1)
+```
+
+There are two pillars of the tidyverse. Using verbs to describe what our code is doing and the pipe operator (`%>%`). The five most common verbs are `filter`, `summarize`, `mutate`, and `arrange`. The pipe operator `%>%` can be read as "then." All that it does is let us go from one verb to the next. Here is how we would "say" the code below:
+
+```{r}
+# use "leg.data" THEN filter it for party equal to 1
+leg.data %>% filter(party == 1)
+```
+
+We'll have more practice with this as we work through the Stata cleaning problems. 
+
+# Rename Variables
+
+Let's start by renaming some of our variables. 
+
+```{r}
+leg.data <- # save our changes to the object to leg.data
+  leg.data %>% # use leg.data THEN
+  rename(name = x, # rename the variable 'x' 'name'
+         state = st,
+         cong_dist = cd)
+
+# take a look
+view(leg.data)
+
+# we can also look at the first few rows of the data a bit quicker with this:
+head(leg.data)
+```
+
+# Value Labels
+
+Now let's give the 1's and 2's of `party` more informative labels. To do this in R, we'll convert this variable to a categorical varible with the `factor` function. 
+
+```{r}
+leg.data <- # save our changes to the object to leg.data
+  leg.data %>% # use leg.data THEN
+  mutate(party = factor(x = party, # mutate creates new or changes existing variables
+                        levels = c(1, 2), # these are the values in party
+                        labels = c("Republican", "Democrat"))) # these are the labels we want to use
+
+view(leg.data)
+
+# notice that R automatically converted the value of -99 to "NA" for missing. 
+# That's because we didn't list -99 as one of the category options. 
+# Here is another way we could have fixed this missing value:
+leg.data <- 
+  leg.data %>%
+  mutate(party = ifelse(test = party == -99, yes = NA, no = party))
+# This says, "if the variable party equals -99 then change it to NA for missing
+# but if it doesn't, then just use the value that it already is. 
+```
+
+# Using Other Tidyverse Verbs
+
+## Summarize
+
+Who's older in our data, Republicans or Democrats?
+
+```{r}
+leg.data %>% # no assignment here because we don't need to save our results
+  group_by(party) %>% # group our data by the party variable
+  summarize(M0974 = mean(M0974)) # calculate the mean of each group. 
+```
+
+## Arrange
+
+What if we want to order our data by, say, age?
+
+```{r}
+leg.data %>% arrange(M0974)
+```
+
+# Bonus: Fixing State Abbreviations
+
+Sometimes, we'd rather have full state names over abbreviations. In R there is a package called `openintro` that gives us a function to do just that. The function we need is `abbr2state`. 
+
+```{r}
+install.packages("openintro")
+library(openintro)
+
+leg.data <- 
+  leg.data %>%
+  mutate(state = abbr2state(abbr = state))
+# fixed!
+```
+
+
+
+# Homework Problems
+
+1. Give XMP098 and M094 more informative variable names.
+
+
+
+2. Give the values "1" and "2" of XMP098 informative labels.
+
+
+
+3. Fix the missing value of "-6" in XMP098 (You'll need to use `ifelse`)
+
+
+
+4. What is the average birth year?
+
+
+
+5. What is the average birth year by sex?

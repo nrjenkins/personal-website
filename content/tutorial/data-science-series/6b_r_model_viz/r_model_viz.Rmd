@@ -1,0 +1,60 @@
+---
+title: "Model Visualization in R"
+output: html_notebook
+---
+
+# Set Working Directory and Import Data
+
+```{r}
+setwd("/Users/nick/Documents/Teaching/workshops/data_science_series/6b_r_model_viz")
+
+mpg <- read.csv("mpg.csv")
+```
+
+
+# Estimate the Regression from Last Time
+
+```{r}
+model.1 <- lm(hwy ~ displ + year + cyl, data = mpg)
+summary(model.1)
+```
+
+
+# Plotting the Fitted Line
+
+```{r}
+library(sjPlot)
+plot_model(model = model.1, show.data = TRUE, type = "pred", 
+           terms = c("displ")) + 
+  labs(x = "Engine Displacement", y = "Highway MPG", 
+       title = "The Effect of Engine Displacement on Highway MPG") +
+  theme_classic()
+```
+
+
+# Coefficient Plots
+
+```{r}
+plot_model(model = model.1, type = "est")
+
+plot_model(model = model.1, type = "est", colors = "black") +
+  labs(y = "Coefficient Estimate", x = "Coefficient", 
+       title = "") +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  scale_x_discrete(labels = c("Engine Displacement", "Year", "Cylinders")) +
+  theme_classic()
+
+# let's save this plot to a PDF
+ggsave(filename = "coefplot.pdf", plot = last_plot(), width = 7, height = 2)
+```
+
+
+# Homework Problems
+
+1. Estimate a regression of city MPG on engine displacement.
+
+
+2. Plot the fitted model against the data. 
+
+
+3. Create a coefficient plot of the model's results. 

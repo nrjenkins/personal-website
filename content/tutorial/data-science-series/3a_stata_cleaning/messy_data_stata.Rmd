@@ -1,0 +1,81 @@
+---
+title: "Dealing with Messy Data in Stata"
+author: MPP Workship Series
+date: "October 1, 2020"
+output: 
+  ioslides_presentation:
+    widescreen: TRUE
+    incremental: TRUE
+    theme: yeti
+    logo: UCR_Icon_WhtBG.png
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Messy Data is ... Messy
+
+* Most of data sets you will work with are difficult get information from
+
+* Data can be:
+
+  * In the wrong format
+  
+  * Spread across multiple files
+  
+  * Badly coded, or have errors
+  
+  * Incomplete with values missing
+  
+* Informative variable names and value labels make our data eaiser to use
+  
+## Data Cleaning
+
+* Data cleaning will probably be the most time-intensive task of any project
+
+* But it's vital!
+
+* A clean data set maximizes the amount of information we can use
+
+## Clean Data
+
+Variables are in columns, observations are in rows, and values are in cells
+
+<center>
+<img src="https://d33wubrfki0l68.cloudfront.net/6f1ddb544fc5c69a2478e444ab8112fb0eea23f8/91adc/images/tidy-1.png" width=90%/>
+</center>
+
+## Data Formats
+
+Here, each row is a case and each column is a variable
+
+```{r}
+tidyr::table1
+```
+
+## Data Formats
+
+```{r}
+tidyr::table2
+```
+
+## Data Formats
+
+```{r}
+tidyr::table3
+```
+
+## Types of Variables
+
+* Numeric variables
+
+* Character variables
+
+* Factors
+
+* Dates
+
+## Time for Hands-on Practice!
+
+Open `cleaning_stata.do` in the `lab_4` folder into Stata
