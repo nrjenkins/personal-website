@@ -23,6 +23,8 @@ interests:
 - Representation
 - Public Policy
 - Bayesian Methods
+- Data Science
+- Active Learning and Simulation Pedagogy 
 
 # Education to show in About widget
 education:
@@ -80,6 +82,8 @@ highlight_name: false
 
 I am currently a graduate student in the [Political Science Department](https://politicalscience.ucr.edu) at the [University of California, Riverside](https://www.ucr.edu). Prior to attending UC Riverside, I completed a Master’s Degree in [Economics](http://www.cla.csulb.edu/departments/economics/) at [California State University, Long Beach](http://www.csulb.edu).
 
-I am a political scientist interested in using and teaching quantitative research methods to solve complex social science and policy problems.
+My research investigates the consequences of Institutional arrangements on the behavior of actors involved in the policymaking process. Specifically, my work examines the strategies that political parties and interest groups use to influence policy formation and what consequences their actions have for constituent representation. Citizens in democratic nations expect public policy to resemble their policy preferences. However, the strategies that political parties and interest groups use to win elections and influence policy often incentivize behavior that is at odds with this expectation. Without carefully investigating the consequences of this strategic behavior, the efforts of these actors could lead to democratic institutions that do not produce policies that reflect the will of the people.
+
+As a result of my research interests, my priorities as an instructor are to develop my students' abilities to participate in political society as informed individuals and analytically evaluate political events to understand why elected officials and government organizations do what they do. I accomplish these goals by creating learning environments where students get as close as possible to experiencing the subject of study first-hand. I design my courses around semester-long simulation exercises, real-world data analysis projects, and case studies to prepare my students for careers in politics, government, public policy, data science, and academia.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "cv/Jenkins - CV.pdf" "newtab" >}}CV{{< /staticref >}}.
