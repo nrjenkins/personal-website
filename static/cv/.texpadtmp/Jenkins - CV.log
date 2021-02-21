@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  20 FEB 2021 15:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  20 FEB 2021 17:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -750,12 +750,12 @@ Overfull \hbox (3.88586pt too wide) in paragraph at lines 219--220
  []
 
 
-Overfull \hbox (4.03145pt too wide) in paragraph at lines 288--288
+Overfull \hbox (2.62654pt too wide) in paragraph at lines 288--288
  \OT1/cmr/m/sc/10.95 Forthcoming
  []
 
 
-Overfull \hbox (4.03145pt too wide) in paragraph at lines 293--293
+Overfull \hbox (2.62654pt too wide) in paragraph at lines 293--293
  \OT1/cmr/m/sc/10.95 Forthcoming
  []
 
@@ -900,7 +900,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  50i,12n,69p,1278b,4001s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb>
-Output written on "/Users/nickjenkins/Documents/GitHub/test-site/static/cv/.texpadtmp/Jenkins - CV.pdf" (7 pages, 319097 bytes).
+Output written on "/Users/nickjenkins/Documents/GitHub/test-site/static/cv/.texpadtmp/Jenkins - CV.pdf" (7 pages, 319084 bytes).
 PDF statistics:
  246 PDF objects out of 1000 (max. 8388607)
  214 compressed objects within 3 object streams
