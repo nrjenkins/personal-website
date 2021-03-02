@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  20 FEB 2021 17:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  1 MAR 2021 20:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -733,29 +733,29 @@ Overfull \hbox (3.88586pt too wide) in paragraph at lines 211--212
  []
 
 
-Overfull \hbox (3.88586pt too wide) in paragraph at lines 217--218
+Overfull \hbox (3.88586pt too wide) in paragraph at lines 219--220
 [][] 
  []
 
 [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (3.88586pt too wide) in paragraph at lines 218--219
+Overfull \hbox (3.88586pt too wide) in paragraph at lines 220--221
 [][] 
  []
 
 
-Overfull \hbox (3.88586pt too wide) in paragraph at lines 219--220
+Overfull \hbox (3.88586pt too wide) in paragraph at lines 221--222
 [][] 
  []
 
 
-Overfull \hbox (2.62654pt too wide) in paragraph at lines 288--288
+Overfull \hbox (2.62654pt too wide) in paragraph at lines 290--290
  \OT1/cmr/m/sc/10.95 Forthcoming
  []
 
 
-Overfull \hbox (2.62654pt too wide) in paragraph at lines 293--293
+Overfull \hbox (2.62654pt too wide) in paragraph at lines 295--295
  \OT1/cmr/m/sc/10.95 Forthcoming
  []
 
@@ -763,75 +763,57 @@ Overfull \hbox (2.62654pt too wide) in paragraph at lines 293--293
 <github.png, id=50, 1290.8225pt x 1267.73625pt>
 File: github.png Graphic file (type png)
 <use github.png>
-Package pdftex.def Info: github.png  used on input line 342.
+Package pdftex.def Info: github.png  used on input line 344.
 (pdftex.def)             Requested size: 8.98152pt x 8.83992pt.
 <PDF.jpg, id=53, 259.97125pt x 114.4275pt>
 File: PDF.jpg Graphic file (type jpg)
 <use PDF.jpg>
-Package pdftex.def Info: PDF.jpg  used on input line 347.
+Package pdftex.def Info: PDF.jpg  used on input line 349.
 (pdftex.def)             Requested size: 20.08012pt x 8.83992pt.
 File: PDF.jpg Graphic file (type jpg)
 <use PDF.jpg>
-Package pdftex.def Info: PDF.jpg  used on input line 352.
+Package pdftex.def Info: PDF.jpg  used on input line 354.
 (pdftex.def)             Requested size: 20.08012pt x 8.83992pt.
 File: github.png Graphic file (type png)
 <use github.png>
-Package pdftex.def Info: github.png  used on input line 352.
+Package pdftex.def Info: github.png  used on input line 354.
 (pdftex.def)             Requested size: 8.98152pt x 8.83992pt.
+ [3 <./github.png> <./PDF.jpg>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 359.
+(Font)              <5> on input line 363.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 359.
+(Font)              <9> on input line 363.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 383.
- [3 <./github.png> <./PDF.jpg>] [4]
+(Font)              <7> on input line 387.
+ [4]
 <certificate2.png, id=105, 513.92pt x 513.92pt>
 File: certificate2.png Graphic file (type png)
 <use certificate2.png>
-Package pdftex.def Info: certificate2.png  used on input line 464.
+Package pdftex.def Info: certificate2.png  used on input line 468.
 (pdftex.def)             Requested size: 13.59764pt x 13.6pt.
 File: certificate2.png Graphic file (type png)
 <use certificate2.png>
-Package pdftex.def Info: certificate2.png  used on input line 469.
+Package pdftex.def Info: certificate2.png  used on input line 473.
 (pdftex.def)             Requested size: 13.59764pt x 13.6pt.
  [5 <./certificate2.png>]
 File: certificate2.png Graphic file (type png)
 <use certificate2.png>
-Package pdftex.def Info: certificate2.png  used on input line 481.
+Package pdftex.def Info: certificate2.png  used on input line 485.
 (pdftex.def)             Requested size: 13.59764pt x 13.6pt.
 File: certificate2.png Graphic file (type png)
 <use certificate2.png>
-Package pdftex.def Info: certificate2.png  used on input line 492.
+Package pdftex.def Info: certificate2.png  used on input line 496.
 (pdftex.def)             Requested size: 13.59764pt x 13.6pt.
 <grades.png, id=116, 513.92pt x 513.92pt>
 File: grades.png Graphic file (type png)
 <use grades.png>
-Package pdftex.def Info: grades.png  used on input line 492.
+Package pdftex.def Info: grades.png  used on input line 496.
 (pdftex.def)             Requested size: 13.59764pt x 13.6pt.
 File: certificate2.png Graphic file (type png)
 <use certificate2.png>
-Package pdftex.def Info: certificate2.png  used on input line 497.
+Package pdftex.def Info: certificate2.png  used on input line 501.
 (pdftex.def)             Requested size: 13.59764pt x 13.6pt.
-File: PDF.jpg Graphic file (type jpg)
-<use PDF.jpg>
-Package pdftex.def Info: PDF.jpg  used on input line 516.
-(pdftex.def)             Requested size: 17.71985pt x 7.79993pt.
-File: PDF.jpg Graphic file (type jpg)
-<use PDF.jpg>
-Package pdftex.def Info: PDF.jpg  used on input line 517.
-(pdftex.def)             Requested size: 17.71985pt x 7.79993pt.
-File: PDF.jpg Graphic file (type jpg)
-<use PDF.jpg>
-Package pdftex.def Info: PDF.jpg  used on input line 518.
-(pdftex.def)             Requested size: 17.71985pt x 7.79993pt.
-File: PDF.jpg Graphic file (type jpg)
-<use PDF.jpg>
-Package pdftex.def Info: PDF.jpg  used on input line 519.
-(pdftex.def)             Requested size: 17.71985pt x 7.79993pt.
-File: PDF.jpg Graphic file (type jpg)
-<use PDF.jpg>
-Package pdftex.def Info: PDF.jpg  used on input line 520.
-(pdftex.def)             Requested size: 17.71985pt x 7.79993pt.
+ [6 <./grades.png>]
 File: PDF.jpg Graphic file (type jpg)
 <use PDF.jpg>
 Package pdftex.def Info: PDF.jpg  used on input line 521.
@@ -856,32 +838,51 @@ File: PDF.jpg Graphic file (type jpg)
 <use PDF.jpg>
 Package pdftex.def Info: PDF.jpg  used on input line 526.
 (pdftex.def)             Requested size: 17.71985pt x 7.79993pt.
+File: PDF.jpg Graphic file (type jpg)
+<use PDF.jpg>
+Package pdftex.def Info: PDF.jpg  used on input line 527.
+(pdftex.def)             Requested size: 17.71985pt x 7.79993pt.
+File: PDF.jpg Graphic file (type jpg)
+<use PDF.jpg>
+Package pdftex.def Info: PDF.jpg  used on input line 528.
+(pdftex.def)             Requested size: 17.71985pt x 7.79993pt.
+File: PDF.jpg Graphic file (type jpg)
+<use PDF.jpg>
+Package pdftex.def Info: PDF.jpg  used on input line 529.
+(pdftex.def)             Requested size: 17.71985pt x 7.79993pt.
+File: PDF.jpg Graphic file (type jpg)
+<use PDF.jpg>
+Package pdftex.def Info: PDF.jpg  used on input line 530.
+(pdftex.def)             Requested size: 17.71985pt x 7.79993pt.
+File: PDF.jpg Graphic file (type jpg)
+<use PDF.jpg>
+Package pdftex.def Info: PDF.jpg  used on input line 531.
+(pdftex.def)             Requested size: 17.71985pt x 7.79993pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--546
+Underfull \hbox (badness 10000) in paragraph at lines 547--551
 
  []
 
-[6 <./grades.png>]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/scit' undefined
-(Font)              using `OT1/cmr/m/it' instead on input line 585.
+(Font)              using `OT1/cmr/m/it' instead on input line 590.
 
-<website.png, id=143, 12.045pt x 12.045pt>
+<website.png, id=141, 12.045pt x 12.045pt>
 File: website.png Graphic file (type png)
 <use website.png>
-Package pdftex.def Info: website.png  used on input line 585.
+Package pdftex.def Info: website.png  used on input line 590.
 (pdftex.def)             Requested size: 13.6pt x 13.6pt.
 
-Underfull \hbox (badness 2088) in paragraph at lines 585--585
+Underfull \hbox (badness 2088) in paragraph at lines 590--590
 [][]\OT1/cmr/m/it/10.95 https://nicholasrjenkins.science/tutorial/bayesian-inference-with-stan/[][]\OT1/cmr/m/n/10.95 . \OT1/cmr/m/n/10 I am
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 614.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 619.
 [7 <./website.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 614.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 619.
  (/Users/nickjenkins/Documents/GitHub/test-site/static/cv/.texpadtmp/Jenkins - CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 614.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 614.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 619.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 619.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -889,18 +890,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package logreq Info: Writing requests to '"Jenkins - CV".run.xml'.
 \openout1 = `"Jenkins - CV.run.xml"'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 614.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 619.
  ) 
 Here is how much of TeX's memory you used:
  16131 strings out of 480608
  284916 string characters out of 5903631
- 1228577 words of memory out of 5000000
+ 1222577 words of memory out of 5000000
  31773 multiletter control sequences out of 15000+600000
  539610 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,12n,69p,1278b,4001s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,11n,69p,1278b,4001s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb>
-Output written on "/Users/nickjenkins/Documents/GitHub/test-site/static/cv/.texpadtmp/Jenkins - CV.pdf" (7 pages, 319084 bytes).
+Output written on "/Users/nickjenkins/Documents/GitHub/test-site/static/cv/.texpadtmp/Jenkins - CV.pdf" (7 pages, 318856 bytes).
 PDF statistics:
  246 PDF objects out of 1000 (max. 8388607)
  214 compressed objects within 3 object streams
