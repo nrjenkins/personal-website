@@ -23,7 +23,7 @@
 
 \refsection{0}
   \datalist[entry]{cms/global//global/global}
-    \entry{jenkinsc}{article}{}
+    \entry{jenkinsb}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e5b5be03b9878776e4abdad083383f64}{%
            family={Jenkins},
@@ -45,10 +45,13 @@
       \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Preparing for Submission}
-      \field{title}{Paying-to-{{Play}}: {{How Members}} of {{Congress Purchase Their Seat At}} the {{Table}}}
+      \field{journaltitle}{SocArXiv}
+      \field{title}{Minimizing {{Whose Influence}}? {{How Rejecting PAC Contributions Affects Contribution Patterns}}}
+      \verb{doi}
+      \verb 10.31235/osf.io/cf3jn
+      \endverb
     \endentry
-    \entry{jenkinsb}{article}{}
+    \entry{jenkinsc}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e5b5be03b9878776e4abdad083383f64}{%
            family={Jenkins},
@@ -70,11 +73,8 @@
       \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{SocArXiv}
-      \field{title}{Transparency or {{Deception}}? {{How Rejecting PAC Contributions Affects Contribution Patterns}}}
-      \verb{doi}
-      \verb 10.31235/osf.io/cf3jn
-      \endverb
+      \field{journaltitle}{Preparing for Submission}
+      \field{title}{Paying-to-{{Play}}: {{How Members}} of {{Congress Purchase Their Seat At}} the {{Table}}}
     \endentry
     \entry{jenkinse}{article}{}
       \name{author}{2}{}{%
@@ -102,7 +102,7 @@
       \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Preparing for Submission}
+      \field{journaltitle}{SocArXiv}
       \field{title}{Do Candidates Benefit from Rejecting {{PAC}} Contributions? {{Evidence}} from a Pre-Registered Candidate Evaluation Survey Experiment}
     \endentry
     \entry{jenkins2020}{article}{}
