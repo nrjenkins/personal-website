@@ -104,6 +104,9 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{SocArXiv}
       \field{title}{Do Candidates Benefit from Rejecting {{PAC}} Contributions? {{Evidence}} from a Pre-Registered Candidate Evaluation Survey Experiment}
+      \verb{doi}
+      \verb 10.31235/osf.io/dt6c7
+      \endverb
     \endentry
     \entry{jenkins2020}{article}{}
       \name{author}{3}{}{%
