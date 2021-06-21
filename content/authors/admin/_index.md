@@ -22,7 +22,7 @@ interests:
 - Interest Groups and Lobbying
 - Representation
 - Public Policy
-- Bayesian Methods
+- Methodology
 - Data Science
 - Active Learning and Simulation Pedagogy 
 
