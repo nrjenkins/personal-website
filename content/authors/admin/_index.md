@@ -18,12 +18,13 @@ bio: I'm a political scientist interested in American politics, public policy, q
 
 # Interests to show in About widget
 interests:
-- Data Science
-- Congress
+- Political Parties
 - Interest Groups and Lobbying
+- Congress
 - Public Policy
 - Bureaucracy
 - Methodology
+- Data Science
 - Representation
 - Active Learning and Simulation Pedagogy 
 
