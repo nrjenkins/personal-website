@@ -1,11 +1,11 @@
 ---
 # Course title, summary, and position.
-linktitle: Intro to Bayesian Data Analysis in R
-summary: Learn the basics of Bayesian data analysis.
+linktitle: Intro to Bayesian Data Analysis with brms
+summary: Learn the basics of Bayesian data analysis with the brms R package.
 weight: 5
 
 # Page metadata.
-title: BDA in R
+title: Bayesian Data Analysis with brms
 date: "2018-09-09T00:00:00Z"
 lastmod: "2018-09-09T00:00:00Z"
 draft: false  # Is this a draft? true/false
@@ -24,6 +24,6 @@ menu:
 weight: 1
 ---
 
-## Intro to Bayesian Data Analysis in R
+## Intro to Bayesian Data Analysis with brms
 
 This tutorial will introduce you to the fundamentals of the Bayesian data analysis workflow. We'll learn how to choose priors for our models, how to run Bayesian models, how to understand their results, and how to diagnose models. For the complete set of files for this tutorial, head over to my GitHub Page:  [https://github.com/nrjenkins/workshops/tree/master/Intro%20to%20Bayesian%20Data%20Analysis](https://github.com/nrjenkins/workshops/tree/master/Intro%20to%20Bayesian%20Data%20Analysis)
