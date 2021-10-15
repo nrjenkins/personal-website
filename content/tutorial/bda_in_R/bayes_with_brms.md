@@ -20,7 +20,7 @@ weight: 20
 
 In this document, we'll walk through the Bayesian workflow for data analysis using the R package `brms`. To get started, we need to install Stan and `brms`. This involves a couple steps. Here are the instructions for MacOS and Windows which you can also find here (<https://learnb4ss.github.io/learnB4SS/articles/install-brms.html>):
 
-[Note: this installation take about 20 minutes to complete.]{style="color:red"}
+<span style="color:red">Note: this installation take about 20 minutes to complete.</span>
 
 ## MacOS Installation Instructions
 
