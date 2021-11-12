@@ -23,7 +23,7 @@
 
 \refsection{0}
   \datalist[entry]{cms/global//global/global}
-    \entry{jenkinsb}{article}{}
+    \entry{jenkinsc}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e5b5be03b9878776e4abdad083383f64}{%
            family={Jenkins},
@@ -45,13 +45,10 @@
       \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{SocArXiv}
-      \field{title}{Minimizing {{Whose Influence}}? {{How Rejecting PAC Contributions Affects Contribution Patterns}}}
-      \verb{doi}
-      \verb 10.31235/osf.io/cf3jn
-      \endverb
+      \field{journaltitle}{Preparing for Submission}
+      \field{title}{Getting {{What You Want}}, or {{Going Where You}}’re {{Told}}? Clarifying the {{Role}} of {{Caucus Fundraising}} in the {{Committee Assignment Process}}}
     \endentry
-    \entry{jenkinsc}{article}{}
+    \entry{jenkinsb}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e5b5be03b9878776e4abdad083383f64}{%
            family={Jenkins},
@@ -73,8 +70,42 @@
       \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Preparing for Submission}
-      \field{title}{Paying-to-{{Play}}: {{How Members}} of {{Congress Purchase Their Seat At}} the {{Table}}}
+      \field{journaltitle}{SocArXiv}
+      \field{title}{Minimizing {{Whose Influence}}? How {{Rejecting PAC Contributions Affects Contribution Patterns}}}
+      \verb{doi}
+      \verb 10.31235/osf.io/cf3jn
+      \endverb
+    \endentry
+    \entry{jenkinsf}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e5b5be03b9878776e4abdad083383f64}{%
+           family={Jenkins},
+           familyi={J\bibinitperiod},
+           given={Nicholas\bibnamedelima R.},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7db60853f3bf17c51a2adcf0e37ddc07}{%
+           family={Landgrave},
+           familyi={L\bibinitperiod},
+           given={Michelangelo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c58835557e4c55fc0c0120d8806c1f01}
+      \strng{fullhash}{c58835557e4c55fc0c0120d8806c1f01}
+      \strng{bibnamehash}{c58835557e4c55fc0c0120d8806c1f01}
+      \strng{authorbibnamehash}{c58835557e4c55fc0c0120d8806c1f01}
+      \strng{authornamehash}{c58835557e4c55fc0c0120d8806c1f01}
+      \strng{authorfullhash}{c58835557e4c55fc0c0120d8806c1f01}
+      \field{extraname}{1}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradate}{1}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Data Collection}
+      \field{title}{Committee {{Assignments}} and {{Public Opinion}}: Do {{Voters Care About Committee Assignments}}?}
     \endentry
     \entry{jenkinse}{article}{}
       \name{author}{2}{}{%
@@ -97,13 +128,15 @@
       \strng{authorbibnamehash}{c58835557e4c55fc0c0120d8806c1f01}
       \strng{authornamehash}{c58835557e4c55fc0c0120d8806c1f01}
       \strng{authorfullhash}{c58835557e4c55fc0c0120d8806c1f01}
+      \field{extraname}{2}
       \field{sortinit}{J}
       \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradate}{2}
       \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{SocArXiv}
-      \field{title}{Do Candidates Benefit from Rejecting {{PAC}} Contributions? {{Evidence}} from a Pre-Registered Candidate Evaluation Survey Experiment}
+      \field{title}{Do Candidates Benefit from Rejecting {{PAC}} Contributions? Evidence from a Pre-Registered Candidate Evaluation Survey Experiment}
       \verb{doi}
       \verb 10.31235/osf.io/dt6c7
       \endverb
@@ -144,7 +177,7 @@
       \field{journaltitle}{Journal of Behavioral Public Administration}
       \field{month}{7}
       \field{number}{2}
-      \field{title}{Do Campaign Contributions Facilitate Access to Government Information? {{Evidence}} from a {{FOIA}} Compliance Field Experiment with {{US}} Municipalities}
+      \field{title}{Do Campaign Contributions Facilitate Access to Government Information? Evidence from a {{FOIA}} Compliance Field Experiment with {{US}} Municipalities}
       \field{volume}{3}
       \field{year}{2020}
       \field{dateera}{ce}
@@ -179,7 +212,69 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Preparing for Submission}
-      \field{title}{Are {{Student Debtors}} a {{Subconstituency}}? {{The Effect}} of {{Student Loans}} on {{Issue Voting}}}
+      \field{title}{Are {{Student Debtors}} a {{Subconstituency}}? The {{Effect}} of {{Student Loans}} on {{Issue Voting}}}
+    \endentry
+    \entry{landgrave}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7db60853f3bf17c51a2adcf0e37ddc07}{%
+           family={Landgrave},
+           familyi={L\bibinitperiod},
+           given={Michelangelo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5b5be03b9878776e4abdad083383f64}{%
+           family={Jenkins},
+           familyi={J\bibinitperiod},
+           given={Nicholas\bibnamedelima R.},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1b467a008d506a3e6e3559e53b4344c0}
+      \strng{fullhash}{1b467a008d506a3e6e3559e53b4344c0}
+      \strng{bibnamehash}{1b467a008d506a3e6e3559e53b4344c0}
+      \strng{authorbibnamehash}{1b467a008d506a3e6e3559e53b4344c0}
+      \strng{authornamehash}{1b467a008d506a3e6e3559e53b4344c0}
+      \strng{authorfullhash}{1b467a008d506a3e6e3559e53b4344c0}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradate}{1}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Data Collection}
+      \field{title}{Bureaucratic {{Burdens}} and {{Migrant Crime}}: How {{Occupational Licensing Affects Low}}-{{Income Crime}}}
+    \endentry
+    \entry{landgravea}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7db60853f3bf17c51a2adcf0e37ddc07}{%
+           family={Landgrave},
+           familyi={L\bibinitperiod},
+           given={Michelangelo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5b5be03b9878776e4abdad083383f64}{%
+           family={Jenkins},
+           familyi={J\bibinitperiod},
+           given={Nicholas\bibnamedelima R.},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1b467a008d506a3e6e3559e53b4344c0}
+      \strng{fullhash}{1b467a008d506a3e6e3559e53b4344c0}
+      \strng{bibnamehash}{1b467a008d506a3e6e3559e53b4344c0}
+      \strng{authorbibnamehash}{1b467a008d506a3e6e3559e53b4344c0}
+      \strng{authornamehash}{1b467a008d506a3e6e3559e53b4344c0}
+      \strng{authorfullhash}{1b467a008d506a3e6e3559e53b4344c0}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradate}{2}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Data Collection}
+      \field{title}{Social {{Safety Nets}} and {{Migrant Crime}}: Do {{Generous Social Welfare Programs Reduce Crime}}?}
     \endentry
     \entry{meyer2019}{article}{}
       \name{author}{2}{}{%
