@@ -23,6 +23,33 @@
 
 \refsection{0}
   \datalist[entry]{cms/global//global/global}
+    \entry{jenkinsg}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e5b5be03b9878776e4abdad083383f64}{%
+           family={Jenkins},
+           familyi={J\bibinitperiod},
+           given={Nicholas\bibnamedelima R.},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {In Progress}%
+      }
+      \strng{namehash}{e5b5be03b9878776e4abdad083383f64}
+      \strng{fullhash}{e5b5be03b9878776e4abdad083383f64}
+      \strng{bibnamehash}{e5b5be03b9878776e4abdad083383f64}
+      \strng{authorbibnamehash}{e5b5be03b9878776e4abdad083383f64}
+      \strng{authornamehash}{e5b5be03b9878776e4abdad083383f64}
+      \strng{authorfullhash}{e5b5be03b9878776e4abdad083383f64}
+      \field{extraname}{1}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradate}{1}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An {{Institutional Capture Theory}} of {{Interest Group Influence}}}
+    \endentry
     \entry{jenkinsc}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=e5b5be03b9878776e4abdad083383f64}{%
@@ -38,10 +65,10 @@
       \strng{authorbibnamehash}{e5b5be03b9878776e4abdad083383f64}
       \strng{authornamehash}{e5b5be03b9878776e4abdad083383f64}
       \strng{authorfullhash}{e5b5be03b9878776e4abdad083383f64}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{J}
       \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
-      \field{extradate}{1}
+      \field{extradate}{2}
       \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -63,10 +90,10 @@
       \strng{authorbibnamehash}{e5b5be03b9878776e4abdad083383f64}
       \strng{authornamehash}{e5b5be03b9878776e4abdad083383f64}
       \strng{authorfullhash}{e5b5be03b9878776e4abdad083383f64}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{J}
       \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
-      \field{extradate}{2}
+      \field{extradate}{3}
       \field{labeldatesource}{nodate}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -321,6 +348,43 @@
       \verb /Users/nickjenkins/Documents/Research/Articles/Meyer_Jenkins_2019_Interest Groups, Policy Responses to Global Shocks, and the Relative Likelihood.pdf
       \endverb
       \keyw{⛔ No DOI found}
+    \endentry
+    \entry{raya}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f7d8fdcadf67a0f6c6036fa71599c725}{%
+           family={Ray},
+           familyi={R\bibinitperiod},
+           given={Sergio\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5b5be03b9878776e4abdad083383f64}{%
+           family={Jenkins},
+           familyi={J\bibinitperiod},
+           given={Nicholas\bibnamedelima R.},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e78dc633a7138152142716b815e9a93}{%
+           family={Esterling},
+           familyi={E\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {In Progress}%
+      }
+      \strng{namehash}{5dcd30c73722aadff23d6dbc7020579a}
+      \strng{fullhash}{5dcd30c73722aadff23d6dbc7020579a}
+      \strng{bibnamehash}{5dcd30c73722aadff23d6dbc7020579a}
+      \strng{authorbibnamehash}{5dcd30c73722aadff23d6dbc7020579a}
+      \strng{authornamehash}{5dcd30c73722aadff23d6dbc7020579a}
+      \strng{authorfullhash}{5dcd30c73722aadff23d6dbc7020579a}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Quantitative {{Methods}} for {{Public Policy}}}
     \endentry
   \enddatalist
 \endrefsection
