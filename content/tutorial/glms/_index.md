@@ -17,7 +17,7 @@ type: docs  # Do not modify.
 # - weight: Position of link in menu.
 menu:
   glms:
-    parent: Part A Introduction
+    parent: Tutorial Overview
     weight: 10
 ---
 
