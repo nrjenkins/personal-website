@@ -1,9 +1,19 @@
 ---
-title: "Intro to Generalized Linear Models"
-subtitle: "UCR GradQuant"
-author: "Nicholas R. Jenkins"
-date: "December 2, 2021"
-output: html_notebook
+title: "A guide to generalize linear models"
+linktitle: An Introduction to Generalized Linear Models
+toc: true
+type: docs
+date: "2019-05-05T00:00:00+01:00"
+draft: false
+menu:
+  glms:
+    parent: Workshop Overview
+    weight: 20
+
+markup: mmark
+
+# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+weight: 20
 ---
 
 This tutorial will walk you through how to use some of the most common generalized linear model and explain what problems they help solve and why. Before going through this code, I suggest that you take some time to review the presentation slides that I put together [here]().
