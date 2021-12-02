@@ -25,4 +25,4 @@ menu:
 
 What do you do when your data isn’t normally distributed? This tutorial will review the linear regression model and you'll learn how it can be extended to model other types of data like counts, binary outcomes, and categories. You'll also learn how to present and interpret the results of these models.
 
-Before going through this code, I suggest that you take some time to review the presentation slides that I put together [here]().
+Before going through this code, I suggest that you take some time to review the presentation slides that I put together [here](https://nrjenkins.github.io/files/tutorials/Intro-to-GLMs---Slides.html).
