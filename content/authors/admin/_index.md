@@ -74,9 +74,6 @@ social:
 - icon: cv
   icon_pack: ai
   link: cv/Jenkins - CV.pdf
-- icon: cv
-  icon_pack: ai
-  link: cv/Jenkins - CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "nicholas.jenkins@email.ucr.edu"
@@ -93,4 +90,4 @@ As an academic, my research investigates the consequences of Institutional arran
 
 As a result of my research interests, my priorities as an instructor are to develop my students' abilities to participate in political society as informed individuals and analytically evaluate political events to understand why elected officials and government organizations do what they do. I accomplish these goals by creating learning environments where students get as close as possible to experiencing the subject of study first-hand. I design my courses around semester-long simulation exercises, real-world data analysis projects, and case studies to prepare my students for careers in politics, government, public policy, data science, and academia.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "cv/Jenkins - CV.pdf" "newtab" >}}CV{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "cv/Jenkins - CV.pdf" "newtab" >}}CV here{{< /staticref >}} and my {{< staticref "Jenkins-Resume.pdf" "newtab" >}}Resume here{{< /staticref >}}.
