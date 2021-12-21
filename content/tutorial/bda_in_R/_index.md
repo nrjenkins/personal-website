@@ -1,6 +1,6 @@
 ---
 # Course title, summary, and position.
-linktitle: Intro to Bayesian Data Analysis with brms
+linktitle: Workshop Overview
 summary: Learn the basics of Bayesian data analysis with the brms R package.
 weight: 5
 
