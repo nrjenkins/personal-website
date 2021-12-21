@@ -67,6 +67,9 @@ social:
 - icon: publons
   icon_pack: ai
   link: https://publons.com/researcher/3537863/nicholas-r-jenkins/
+- icon: file-pdf
+  icon_pack: fas
+  link: https://nicholasrjenkins.science/Jenkins-Resume.pdf
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
