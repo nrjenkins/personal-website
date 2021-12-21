@@ -5,7 +5,7 @@ summary: Learn how to conduct a policy evaluation project using R.
 weight: 2
 
 # Page metadata.
-title: Overview
+title: Policy Evaluation Project Guide
 date: "2018-09-09T00:00:00Z"
 lastmod: "2018-09-09T00:00:00Z"
 draft: false  # Is this a draft? true/false

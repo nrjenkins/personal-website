@@ -18,10 +18,12 @@ type: docs  # Do not modify.
 menu:
   dba:
     name: Workshop Overview
-    weight: 1
-    
+    weight: 10
+
+markup: mmark
+
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 1
+weight: 10
 ---
 
 ## Intro to Bayesian Data Analysis with brms
